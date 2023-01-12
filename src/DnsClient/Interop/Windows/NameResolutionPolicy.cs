@@ -31,6 +31,7 @@ namespace DnsClient.Windows
                 return nameServers;
             }
 
+#if false
             // [MS-GPNRPT] dictates that the NRPT is stored in two separate registry keys.
             //
             //  - The Policy key is pushed down through Group Policy.
@@ -95,6 +96,7 @@ namespace DnsClient.Windows
                 policyRoot?.Dispose();
                 parametersRoot?.Dispose();
             }
+#endif
 
             return nameServers.ToArray();
         }
