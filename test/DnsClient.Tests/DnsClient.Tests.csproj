@@ -4,9 +4,6 @@
       net471;netcoreapp3.1;net6.0;
     </TargetFrameworks>
     <AssemblyName>DnsClient.Tests</AssemblyName>
-    <AssemblyOriginatorKeyFile>../../tools/key.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
-    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
     <PackageId>DnsClient.Tests</PackageId>
     <IsPackable>false</IsPackable>
     <LangVersion>latest</LangVersion>

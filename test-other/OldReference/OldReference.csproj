@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFrameworks><!--net45-->;net471;netcoreapp3.1</TargetFrameworks>
-    <AssemblyOriginatorKeyFile>../../tools/key.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>

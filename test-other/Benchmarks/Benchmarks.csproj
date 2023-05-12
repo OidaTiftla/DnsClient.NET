@@ -6,10 +6,6 @@
 
     <AssemblyName>Benchmarks</AssemblyName>
     <OutputType>Exe</OutputType>
-    <AssemblyOriginatorKeyFile>../../tools/key.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
-
-    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
     <LangVersion>7.2</LangVersion>
   </PropertyGroup>
 
